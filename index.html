@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GhostCode</title>
+    <!-- External Libraries CSS Files -->
+    <link rel="stylesheet" href="css/vendors-extensions/fontAwesome.css" />
+    <link rel="stylesheet" href="vendors/Glightbox/glightbox.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="fixed-top shadow">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="imgs/logo.svg" alt="Logo image" />
+          </a>
+          <button
+            id="navbarSideCollapse"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end bg-gradient"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">
+                GhostCode
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body align-items-center">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded d-lg-flex d-none"
+              >
+                +216 12345678 <span><i class="fas fa-phone-alt"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <main>
+      <!-- Start Intro -->
+      <section class="intro bg-gradient text-white">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 flow text-center text-md-start">
+              <h1 class="display-2 fw-bold lh-sm">Hey! We're GhostCode</h1>
+              <p class="fs-4">
+                We're an independent design and development agency with
+                experience in web design, brand identity and product design.
+              </p>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded mx-auto mx-md-0"
+              >
+                Get in Touch
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div class="col-md-6 text-end">
+              <div
+                class="intro__videobox position-relative d-flex justify-content-lg-end align-items-center"
+              >
+                <img
+                  src="imgs/intro-section-illustration.png"
+                  alt="Intro section illustration"
+                />
+                <a
+                  href="#"
+                  class="glightbox position-absolute start-50 translate-middle-x"
+                >
+                  <span>
+                    <i class="fa fa-circle-play fa-6x text-secondary"></i>
+                  </span>
+                  <span class="border-effect" style="--border: 2"></span>
+                  <span class="border-effect" style="--border: 3"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,160L48,176C96,192,192,224,288,208C384,192,480,128,576,133.3C672,139,768,213,864,202.7C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </section>
+      <!-- End Intro -->
+
+      <!-- Start Campanies -->
+      <section class="campanies section">
+        <div class="container">
+          <h2 class="section__heading">Trusted by companies like</h2>
+          <ul class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-6 p-0">
+            <li>
+              <div class="campanies__item">
+                <img
+                  src="imgs/campanies/campany-1.png"
+                  alt="Campany 1 logo"
+                  title="Campany 1 logo"
+                />
+              </div>
+            </li>
+            <li>
+              <div class="campanies__item">
+                <img
+                  src="imgs/campanies/campany-2.png"
+                  alt="Campany 2 logo"
+                  title="Campany 2 logo"
+                />
+              </div>
+            </li>
+            <li>
+              <div class="campanies__item">
+                <img
+                  src="imgs/campanies/campany-3.png"
+                  alt="Campany 3 logo"
+                  title="Campany 3 logo"
+                />
+              </div>
+            </li>
+            <li>
+              <div class="campanies__item">
+                <img
+                  src="imgs/campanies/campany-4.png"
+                  alt="Campany 4 logo"
+                  title="Campany 4 logo"
+                />
+              </div>
+            </li>
+            <li>
+              <div class="campanies__item">
+                <img
+                  src="imgs/campanies/campany-5.png"
+                  alt="Campany 5 logo"
+                  title="Campany 5 logo"
+                />
+              </div>
+            </li>
+            <li>
+              <div class="campanies__item">
+                <img
+                  src="imgs/campanies/campany-6.png"
+                  alt="Campany 6 logo"
+                  title="Campany 6 logo"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Campanies -->
+
+      <!-- Start Services -->
+      <section class="services section">
+        <div class="container">
+          <h2 class="section__heading display-4">Our Services</h2>
+          <div class="row row-cols-md-2 mb-4">
+            <h3 class="p-4 fw-semibold lh-sm border-end">
+              Our services range from initial design to deployment anywhere
+              anytime
+            </h3>
+            <p class="p-4 lh-lg">
+              Lorem ipsum dolor sit amet consectetur architecto magni, dicta
+              maxime laborum temporibus dolorem esse doloremque illo quas nisi
+              enim molestias. Tempore ducimus molestiae in dolore enim.
+            </p>
+          </div>
+          <div class="row row-cols-md-2 service align-items-center mb-4">
+            <div class="flow">
+              <h4 class="service__title fs-3">
+                <i class="fa fa-paper-plane me-3 text-primary"></i
+                ><span>Marketing</span>
+              </h4>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                impedit rem, doloremque autem quibusdam blanditiis harum alias
+                hic accusantium maxime atque ratione magni repellat?
+              </p>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded border-primary"
+              >
+                Learn More
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div>
+              <img
+                src="imgs/services/service-1.png"
+                alt="Marketing illustration"
+              />
+            </div>
+          </div>
+          <div class="row row-cols-md-2 service align-items-center mb-4">
+            <div class="flow order-md-2">
+              <h4 class="service__title fs-3">
+                <i class="fa fa-code me-3 text-primary"></i
+                ><span>Web Development</span>
+              </h4>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                impedit rem, doloremque autem quibusdam blanditiis harum alias
+                hic accusantium maxime atque ratione magni repellat?
+              </p>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded border-primary"
+              >
+                Learn More
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div class="order-md-1">
+              <img
+                src="imgs/services/service-2.png"
+                alt="Web development illustration"
+              />
+            </div>
+          </div>
+          <div class="row row-cols-md-2 service align-items-center">
+            <div class="flow">
+              <h4 class="service__title fs-3">
+                <i class="fa fa-cloud-upload-alt me-3 text-primary"></i
+                ><span>Cloud Hosting</span>
+              </h4>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+                impedit rem, doloremque autem quibusdam blanditiis harum alias
+                hic accusantium maxime atque ratione magni repellat?
+              </p>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded border-primary"
+              >
+                Learn More
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div>
+              <img
+                src="imgs/services/service-3.png"
+                alt="Cloud hosting illustration"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Services -->
+
+      <!-- Start Testimonials -->
+      <div class="testimonials bg-gradient">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#fff"
+            fill-opacity="1"
+            d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+          ></path>
+        </svg>
+        <div class="container section text-center">
+          <h2 class="section__heading special-heading display-4 text-white">
+            Testimonials
+          </h2>
+          <p class="text-white-50 fs-5">What our clients are saying</p>
+          <div
+            id="testimonials-carousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item testimonial-item active">
+                <div class="testimonial-item__inner">
+                  <div class="testimonial__quote">
+                    <p>
+                      <i
+                        class="fas fa-quote-left fa-xl text-primary text-opacity-75"
+                      ></i>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Porro consectetur commodi aliquam ipsam, vero amet!
+                      <i
+                        class="fas fa-quote-right fa-xl text-primary text-opacity-75"
+                      ></i>
+                    </p>
+                    <ul
+                      class="d-flex justify-content-center p-0 text-primary text-opacity-75"
+                    >
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="testimonial__img">
+                    <img src="imgs/testimonials/client-1.jpg" alt="Client 1" />
+                  </div>
+                  <div class="testimonial__info text-white">
+                    <h4>Patrick Muriungi</h4>
+                    <p class="text-white-50">CEO & Founder</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item testimonial-item">
+                <div class="testimonial-item__inner">
+                  <div class="testimonial__quote">
+                    <p>
+                      <i
+                        class="fas fa-quote-left fa-xl text-primary text-opacity-75"
+                      ></i>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Porro consectetur commodi aliquam ipsam, vero amet!
+                      <i
+                        class="fas fa-quote-right fa-xl text-primary text-opacity-75"
+                      ></i>
+                    </p>
+                    <ul
+                      class="d-flex justify-content-center p-0 text-primary text-opacity-75"
+                    >
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="testimonial__img">
+                    <img src="imgs/testimonials/client-2.jpg" alt="Client 1" />
+                  </div>
+                  <div class="testimonial__info text-white">
+                    <h4>Uhuru Kenyatta</h4>
+                    <p class="text-white-50">Finance Manager</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item testimonial-item">
+                <div class="testimonial-item__inner">
+                  <div class="testimonial__quote">
+                    <p>
+                      <i
+                        class="fas fa-quote-left fa-xl text-primary text-opacity-75"
+                      ></i>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Porro consectetur commodi aliquam ipsam, vero amet!
+                      <i
+                        class="fas fa-quote-right fa-xl text-primary text-opacity-75"
+                      ></i>
+                    </p>
+                    <ul
+                      class="d-flex justify-content-center p-0 text-primary text-opacity-75"
+                    >
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="testimonial__img">
+                    <img src="imgs/testimonials/client-3.jpg" alt="Client 1" />
+                  </div>
+                  <div class="testimonial__info text-white">
+                    <h4>Hamdi Kapoor</h4>
+                    <p class="text-white-50">Web Designer</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item testimonial-item">
+                <div class="testimonial-item__inner">
+                  <div class="testimonial__quote">
+                    <p>
+                      <i
+                        class="fas fa-quote-left fa-xl text-primary text-opacity-75"
+                      ></i>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Porro consectetur commodi aliquam ipsam, vero amet!
+                      <i
+                        class="fas fa-quote-right fa-xl text-primary text-opacity-75"
+                      ></i>
+                    </p>
+                    <ul
+                      class="d-flex justify-content-center p-0 text-primary text-opacity-75"
+                    >
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                      <li><i class="fa fa-star"></i></li>
+                    </ul>
+                  </div>
+                  <div class="testimonial__img">
+                    <img src="imgs/testimonials/client-4.jpg" alt="Client 1" />
+                  </div>
+                  <div class="testimonial__info text-white">
+                    <h4>John Smith</h4>
+                    <p class="text-white-50">Frontend Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-control d-flex justify-content-center mt-4">
+              <button
+                class="carousel-control-prev border border-light"
+                type="button"
+                data-bs-target="#testimonials-carousel"
+                data-bs-slide="prev"
+              >
+                <i class="fas fa-long-arrow-alt-left"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next border border-light"
+                type="button"
+                data-bs-target="#testimonials-carousel"
+                data-bs-slide="next"
+              >
+                <i class="fas fa-long-arrow-alt-right"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#fff"
+            fill-opacity="1"
+            d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <!-- End Testimonials -->
+
+      <!-- Start FAQ -->
+      <section class="faq section">
+        <div class="container">
+          <h2 class="section__heading display-4 text-uppercase">Faq</h2>
+          <p class="text-black-50 text-center mb-5">
+            Frequently asked questions, get knowledge befere hand
+          </p>
+          <div class="row">
+            <div class="accordion faq__accordion flow" id="faq__accordion">
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What are the main features?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#faq__accordion"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Do I have to pay again after trial?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq__accordion"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How can I get started after trial?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq__accordion"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Can I be refunded if amnot satisfied?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faq__accordion"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It
+                    is shown by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End FAQ -->
+
+      <!-- Start Portfolio -->
+      <section class="portfolio section">
+        <div class="container">
+          <h2 class="section__heading display-4 text-uppercase">Latest Work</h2>
+          <p class="text-black-50 text-center mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <ul class="d-flex justify-content-center gap-1 mb-4 list-unstyled">
+            <li><button class="btn btn-outline-primary">All</button></li>
+            <li><button class="btn btn-outline-primary">Websites</button></li>
+            <li><button class="btn btn-outline-primary">Design</button></li>
+            <li><button class="btn btn-outline-primary">Mockup</button></li>
+          </ul>
+          <div class="row row-cols-sm-2 row-cols-lg-3">
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-1.webp" alt="Project 1" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 1</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-2.jpg" alt="Project 2" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 2</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-3.jpg" alt="Project 3" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 3</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-4.jpg" alt="Project 4" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 4</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-5.jpg" alt="Project 5" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 5</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-6.jpg" alt="Project 6" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 6</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-7.avif" alt="Project 7" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 7</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-8.jpg" alt="Project 8" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 8</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="portfolio-item px-2">
+              <figure class="portfolio-item__inner shadow-sm">
+                <img src="imgs/portfolio/portfolio-9.jpg" alt="Project 9" />
+                <figcaption class="portfolio-item__desc">
+                  <h4 class="text-uppercase">Project name goes here 9</h4>
+                  <p>Websites</p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Portfolio -->
+
+      <!-- Start Contact -->
+      <section class="contact section bg-body-secondary">
+        <div class="container">
+          <h2 class="section__heading display-4 text-uppercase">Get Started</h2>
+          <p class="text-black-50 text-center mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div class="row row-cols-lg-2">
+            <div class="bg-gradient text-white pt-5 px-3 p-sm-5 shadow">
+              <div class="p-3 flow">
+                <h2 class="display-3 fw-bold">100% Satisfaction Guaranteed</h2>
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                  eius error voluptatibus vitae mollitia nam et eum veniam
+                  eveniet ex.
+                </p>
+                <h3>What will be the next step?</h3>
+                <ul class="cta__list">
+                  <li class="mb-2">We'll prepare the proposal</li>
+                  <li class="mb-2">We'll discuss it together</li>
+                  <li>Let's start the discussion</li>
+                </ul>
+              </div>
+            </div>
+            <div class="pt-5 px-3 p-sm-5 bg-white shadow">
+              <div class="form p-2 h-100 d-flex flex-column gap-3">
+                <h3 class="fs-2">Start Your Project</h3>
+                <form action="#" class="form__wrapper flex-fill">
+                  <input
+                    type="text"
+                    class="first-name form-control form-control-lg fs-6 shadow-sm"
+                    placeholder="First Name"
+                  />
+                  <input
+                    type="text"
+                    class="last-name form-control form-control-lg fs-6 shadow-sm"
+                    placeholder="Last Name"
+                  />
+                  <input
+                    type="email"
+                    class="form-control form-control-lg fs-6 shadow-sm"
+                    placeholder="Email Adress"
+                  />
+                  <textarea
+                    name="Message"
+                    id="form__msg"
+                    class="form-control shadow-sm"
+                    placeholder="Message"
+                  ></textarea>
+                  <button
+                    class="btn btn-primary py-3 rounded-pill"
+                    type="submit"
+                  >
+                    Submit <i class="fas fa-paper-plane ms-2"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact -->
+
+      <!-- Start Footer -->
+      <footer>
+        <div class="footer__contact bg-dark">
+          <div class="container text-white py-4">
+            <div class="row row-cols-lg-3">
+              <div class="d-flex flex-column flex-sm-row align-items-center gap-3 mb-4 mb-lg-0">
+                <i class="fa fa-phone-volume text-primary fa-3x"></i>
+                <div>
+                  <h5>+216 12345678</h5>
+                  <p class="text-white-50 mb-0">Mon-Fri 9am-6pm</p>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row align-items-center gap-3 mb-4 mb-lg-0">
+                <i class="fa fa-mail-bulk text-primary fa-3x"></i>
+                <div>
+                  <h5>info@company.com</h5>
+                  <p class="text-white-50 mb-0">Outline Support</p>
+                </div>
+              </div>
+              <div class="d-flex flex-column flex-sm-row align-items-center gap-3">
+                <i class="fa fa-map-location-dot text-primary fa-3x"></i>
+                <div>
+                  <h5>Sidi Bouzid, Tunisia</h5>
+                  <p class="text-white-50 mb-0">St 1020, TU</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__social">
+          <div class="container py-4">
+            <div
+              class="row row-cols-md-2 text-center text-md-start align-items-center text-white"
+            >
+              <p class="mb-4 mb-md-0">Connect with us on social media:</p>
+              <ul
+                class="d-flex gap-4 justify-content-center justify-content-md-end mb-0"
+              >
+                <li>
+                  <a href="#"><i class="fab fa-facebook fa-xl"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter fa-xl"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram fa-xl"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-github fa-xl"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-linkedin fa-xl"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__info bg-dark py-5">
+          <div class="container">
+            <div class="row row-cols-lg-2 text-white">
+              <div class="flow mb-4 mb-lg-0">
+                <h4 class="footer__heading">GhostCode</h4>
+                <p class="lh-lg">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+                  animi hic illum dignissimos pariatur blanditiis doloremque
+                  alias maiores laboriosam modi.
+                </p>
+              </div>
+              <div class="row row-cols-sm-2">
+                <div class="mb-5 mb-sm-0">
+                  <h5 class="footer__heading">Products</h5>
+                  <ul class="p-0 d-flex flex-column gap-2">
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >lorem ipseum</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >lorem ipseum</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >lorem ipseum</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >lorem ipseum</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >lorem ipseum</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5 class="footer__heading">Useful Links</h5>
+                  <ul class="p-0 d-flex flex-column gap-2">
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >Your Account</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >Become an Affiliate</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >Create an Account</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        class="text-white link-primary text-decoration-none"
+                        >Help</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer__copyright bg-gradient text-white-50 py-4 text-center"
+        >
+          <div class="container">
+            <p class="mb-0">
+              &copy; Copyright 2024 | Created by <a href="#" class="text-white link-primary">GhostCode</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- End Footer -->
+    </main>
+    <!-- External Libraries JS Files -->
+    <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendors/fontAwesome/all.min.js"></script>
+    <script src="vendors/Glightbox/glightbox.min.js"></script>
+    <!-- Main JS File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
